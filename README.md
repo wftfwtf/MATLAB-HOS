@@ -32,3 +32,5 @@ NCOL: Number of spatial grids
 xp: Cordinate of the observation point
 
 dispflag: Animation displayed if >1
+
+You may see animation of water wave by using demo_MATLAB_HOS.m
