@@ -1,7 +1,7 @@
 # MATLAB-HOS
 MATLAB version of HOS (Higher Order Spectral method; Dommermuth & Yue 1987, West et al. 1987).
 
- [obsrec,ETAPSIa,conservQuan]=compHOSMRK4_MATLAB(etatmp,psitmp,mdim,xdomain,ydomain,...
+        [obsrec,ETAPSIa,conservQuan]=compHOSMRK4_MATLAB(etatmp,psitmp,mdim,xdomain,ydomain,...
  
         grav,deltat,NT,Ta,istep_out,NCOL,xp,dispflag);
 
