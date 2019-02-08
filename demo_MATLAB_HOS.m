@@ -29,13 +29,7 @@ NT=(Nperiod+Taperiod)*dt_per_Tm;
 
 w=linspace(0,max(akx),10000);
 
-S=jonswap(w,[Hm0 2*pi/omegap 3.3 0.07 0.09 -1],0);
-S.g=grav;
-Sk=time2spa(S,akx(1:end/2),[],grav);
-
-Sk2=Sk;
-Sk2.S=zeros(1,NCOL);Sk2.S(1:length(Sk.S))=Sk.S;
-Sk2.k=zeros(1,NCOL);Sk2.k=akx;
+load spectrum % you can create new spectrum by using Wafo library
 
 %% Time evolution and detect freak wave
 
